@@ -37,17 +37,10 @@
 	],
 	"activationEvents": [
 		"onLanguage:markdown",
-		"onCommand:memo.openRandomNote",
-		"onCommand:memo.openDailyNote",
-		"onCommand:memo.openReferenceInDefaultApp",
-		"onCommand:memo.openReferenceBeside",
-		"onCommand:memo.pasteHtmlAsMarkdown",
-		"onCommand:memo.extractRangeToNewNote",
 		"onCommand:_memo.openReference",
 		"onCommand:_memo.cacheWorkspace",
 		"onCommand:_memo.cleanWorkspaceCache",
-		"onCommand:_memo.getWorkspaceCache",
-		"onView:memo.backlinksPanel"
+		"onCommand:_memo.getWorkspaceCache"
 	],
 	"main": "./dist/extension",
 	"contributes": {
